@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ikram Asif Khan Radi</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open+Sans:400,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--        =================navbar start here=========================-->
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn " onclick="closeNav()">&times;</a>
+            <div class="nav_brand">
+                <a href="index.html" >R</a>
+            </div>
+            <div class="main_menu">
+                <ul class="menu_bar clear_both">
+                    <li ><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="recent_work.html">Recent work</a></li>
+                    <li><a href="contact.html">Contact details</a></li>
+                </ul>
+            </div>
+            <div class="social_icon">
+                <ul>
+                    <li><a href="#"> <i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>  
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="open_nav">&#9776;</span>
+        </div>
+        <!--        =================navbar end here=========================-->
+        
+        <!--        ======================main body start here=====================-->
+
+        <div class="container recent_work">
+            <div class="row">
+                <div class="col-1 pl-0 page_number">4</div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 page_title pl-0">Recent work </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 px-0">
+                    <div id="filters" class=" btn-group  isotope_button_group">  
+                        <button class="btn btn-sm  my_button active" data-filter="*">show all</button>
+                        <button class="btn btn-sm btn-danger my_button" data-filter=".laravel_project">Laravel project</button>
+                        <button class="btn btn-sm btn-danger my_button" data-filter=".php_project">Row php project</button>
+                        <button class="btn btn-sm btn-danger my_button" data-filter=".web_design">Responsive web design</button>  
+                    </div>
+
+                    <div class="grid">
+                        <div class="element-item  col-md-4 laravel_project">
+                            <div class="card my_card">
+                                <img class="card-img-top" src="images/laravel.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3 class="card-title">Compiller design</h3>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="course_details.html" class="btn btn-danger my_button">View  details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="element-item  col-md-4 php_project">
+                            <div class="card my_card">
+                                <img class="card-img-top" src="images/laravel.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3 class="card-title">Compiller design</h3>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="course_details.html" class="btn btn-danger my_button">View  details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-md-4 web_design">
+                            <div class="card my_card">
+                                <img class="card-img-top" src="images/laravel.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3 class="card-title">Compiller design</h3>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="course_details.html" class="btn btn-danger my_button">View  details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="element-item  col-md-4 laravel_project">
+                            <div class="card my_card">
+                                <img class="card-img-top" src="images/laravel.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3 class="card-title">Compiller design</h3>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="course_details.html" class="btn btn-danger my_button">View  details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item  col-md-4 php_project">
+                            <div class="card my_card">
+                                <img class="card-img-top" src="images/laravel.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3 class="card-title">Compiller design</h3>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="course_details.html" class="btn btn-danger my_button">View  details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item col-md-4 web_design">
+                            <div class="card my_card">
+                                <img class="card-img-top" src="images/laravel.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3 class="card-title">Compiller design</h3>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="course_details.html" class="btn btn-danger my_button">View  details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="element-item  col-md-4 laravel_project">
+                            <div class="card my_card">
+                                <img class="card-img-top" src="images/laravel.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3 class="card-title">Compiller design</h3>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="course_details.html" class="btn btn-danger my_button">View  details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element-item  col-md-4 php_project">
+                            <div class="card my_card">
+                                <img class="card-img-top" src="images/laravel.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3 class="card-title">Compiller design</h3>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="course_details.html" class="btn btn-danger my_button">View  details</a>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--        ======================main body start here=====================-->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/t.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/isotope.min.js"></script>
+        <script src="js/myScript.js"></script>
+    </body>
+</html>
+
